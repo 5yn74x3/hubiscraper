@@ -63,7 +63,7 @@ const ConversationBubble = forwardRef<
     bubble = (
       <div
         ref={ref}
-        className={`flex flex-wrap self-start ${className} group flex-col pr-20  dark:text-bright-grey`}
+        className={`flex flex-wrap self-start ${className} group flex-col pr-20  dark:text-bright-gray`}
       >
         <div className="flex flex-wrap self-start lg:flex-nowrap">
           <Avatar
@@ -78,7 +78,7 @@ const ConversationBubble = forwardRef<
           />
 
           <div
-            className={`ml-2 mr-5 flex max-w-[90vw] rounded-3xl bg-grey-1000 p-3.5 dark:bg-grey md:max-w-[70vw] lg:max-w-[50vw] ${
+            className={`ml-2 mr-5 flex max-w-[90vw] rounded-3xl bg-gray-1000 p-3.5 dark:bg-gray md:max-w-[70vw] lg:max-w-[50vw] ${
               type === 'ERROR'
                 ? 'flex-row items-center rounded-full border border-transparent bg-[#FFE7E7] p-2 py-5 text-sm font-normal text-red-3000  dark:border-red-2000 dark:text-white'
                 : 'flex-col rounded-3xl'
