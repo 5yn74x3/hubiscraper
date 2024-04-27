@@ -4,7 +4,7 @@ services:
   frontend:
     build: ./frontend
     environment:
-      - VITE_API_HOST=http://localhost:7091
+      - VITE_API_HOST=http://0.0.0.0:7091
       - VITE_API_STREAMING=$VITE_API_STREAMING
       - VITE_EMBEDDINGS_NAME=$EMBEDDINGS_NAME
     ports:
