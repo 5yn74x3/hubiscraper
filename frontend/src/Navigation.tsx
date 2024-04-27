@@ -312,24 +312,6 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
               </p>
             </NavLink>
           </div>
-
-          <div className="flex flex-col gap-2 border-b-[1.5px] py-2 dark:border-b-purple-taupe">
-            <NavLink
-              to="/about"
-              className={({ isActive }) =>
-                `my-auto mx-4 flex h-9 cursor-pointer gap-4 rounded-3xl hover:bg-gray-100 dark:hover:bg-purple-taupe ${
-                  isActive ? 'bg-gray-3000 dark:bg-purple-taupe' : ''
-                }`
-              }
-            >
-              <NavImage Light={Info} Dark={InfoDark} />
-              <p className="my-auto text-sm">About</p>
-            </NavLink>
-
-           
-         
-          
-          </div>
         </div>
       </div>
       <div className="fixed z-10 h-16 w-full border-b-2 bg-gray-50 dark:border-b-purple-taupe dark:bg-chinese-black md:hidden">
