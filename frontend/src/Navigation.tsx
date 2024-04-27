@@ -215,7 +215,7 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
         >
           <div className="my-auto mx-4 flex cursor-pointer gap-1.5">
             <img className="mb-2 h-10" src={DocsGPT3} alt="" />
-            <p className="my-auto text-2xl font-semibold">DocsGPT</p>
+            <p className="my-auto text-2xl font-semibold">Hubiscraper0.1</p>
           </div>
           <button
             className="float-right mr-5"
