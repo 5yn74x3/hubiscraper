@@ -69,9 +69,9 @@ export default function ConversationTile({
       onClick={() => {
         selectConversation(conversation.id);
       }}
-      className={`my-auto mx-4 mt-4 flex h-9 cursor-pointer items-center justify-between gap-4 rounded-3xl hover:bg-gray-100 dark:hover:bg-purple-taupe ${
+      className={`my-auto mx-4 mt-4 flex h-9 cursor-pointer items-center justify-between gap-4 rounded-3xl hover:bg-gray-100 dark:hover:bg-black-taupe ${
         conversationId === conversation.id
-          ? 'bg-gray-100 dark:bg-purple-taupe'
+          ? 'bg-gray-100 dark:bg-black-taupe'
           : ''
       }`}
     >
