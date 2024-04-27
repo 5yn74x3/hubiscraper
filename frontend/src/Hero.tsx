@@ -22,7 +22,6 @@ export default function Hero({ className = '' }: { className?: string }) {
           <p className="mb-3 text-center leading-6">
           
           </p>
-        </>
       )}
       <div
         className={`mt-0 flex flex-wrap items-center justify-center gap-2 sm:mt-1 sm:gap-4 md:gap-4 lg:gap-0`}
