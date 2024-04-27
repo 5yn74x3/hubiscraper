@@ -51,7 +51,7 @@ const Settings: React.FC = () => {
         <div className="md:hidden">
           <button
             onClick={() => scrollTabs(-1)}
-            className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-purple-30 transition-all hover:bg-gray-100"
+            className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-green-30 transition-all hover:bg-gray-100"
           >
             <img src={ArrowLeft} alt="left-arrow" className="h-6 w-6" />
           </button>
@@ -63,7 +63,7 @@ const Settings: React.FC = () => {
               onClick={() => setActiveTab(tab)}
               className={`h-9 rounded-3xl px-4 font-bold ${
                 activeTab === tab
-                  ? 'bg-purple-3000 text-purple-30 dark:bg-dark-charcoal'
+                  ? 'bg-black text-white-30 dark:bg-dark-charcoal'
                   : 'text-gray-6000'
               }`}
             >
@@ -74,7 +74,7 @@ const Settings: React.FC = () => {
         <div className="md:hidden">
           <button
             onClick={() => scrollTabs(1)}
-            className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-purple-30 hover:bg-gray-100"
+            className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-green-30 hover:bg-gray-100"
           >
             <img src={ArrowRight} alt="right-arrow" className="h-6 w-6" />
           </button>
