@@ -21,14 +21,14 @@ const Modal = (props: ModalProps) => {
         <div>
           <button
             onClick={() => props.handleSubmit()}
-            className="ml-auto h-10 w-20 rounded-3xl bg-violet-800 text-white transition-all hover:bg-violet-700"
+            className="ml-auto h-10 w-20 rounded-3xl bg-black-800 text-white transition-all hover:bg-black-700"
           >
             Save
           </button>
           {props.isCancellable && (
             <button
               onClick={() => props.handleCancel && props.handleCancel()}
-              className="ml-5 h-10 w-20 rounded-lg border border-violet-700 bg-white text-violet-800 transition-all hover:bg-violet-700 hover:text-white"
+              className="ml-5 h-10 w-20 rounded-lg border border-black-700 bg-white text-black-800 transition-all hover:bg-black-700 hover:text-white"
             >
               Cancel
             </button>
