@@ -209,7 +209,7 @@ export default function Conversation() {
           )}
         </div>
         <p className="text-gray-595959 w-[100vw] self-center bg-white bg-transparent p-5 text-center text-xs dark:bg-raisin-black dark:text-bright-gray md:w-full">
-          DocsGPT uses GenAI, please review critial information using sources.
+      
         </p>
       </div>
     </div>
