@@ -326,35 +326,9 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
               <p className="my-auto text-sm">About</p>
             </NavLink>
 
-            <a
-              href="https://docs.docsgpt.co.uk/"
-              target="_blank"
-              rel="noreferrer"
-              className="my-auto mx-4 flex h-9 cursor-pointer gap-4 rounded-3xl hover:bg-gray-100 dark:hover:bg-purple-taupe"
-            >
-              <NavImage Light={Documentation} Dark={DocumentationDark} />
-              <p className="my-auto text-sm ">Documentation</p>
-            </a>
-            <a
-              href="https://discord.gg/WHJdfbQDR4"
-              target="_blank"
-              rel="noreferrer"
-              className="my-auto mx-4 flex h-9 cursor-pointer gap-4 rounded-3xl hover:bg-gray-100 dark:hover:bg-purple-taupe"
-            >
-              <NavImage Light={Discord} Dark={DiscordDark} />
-              {/*  <img src={isDarkTheme ? DiscordDark : Discord} alt="discord-link" className="ml-2 w-5" /> */}
-              <p className="my-auto text-sm">Visit our Discord</p>
-            </a>
-
-            <a
-              href="https://github.com/arc53/DocsGPT"
-              target="_blank"
-              rel="noreferrer"
-              className="mx-4 mt-auto flex h-9 cursor-pointer gap-4 rounded-3xl hover:bg-gray-100 dark:hover:bg-purple-taupe"
-            >
-              <NavImage Light={Github} Dark={GithubDark} />
-              <p className="my-auto text-sm">Visit our Github</p>
-            </a>
+           
+         
+          
           </div>
         </div>
       </div>
