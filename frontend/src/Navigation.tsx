@@ -208,7 +208,7 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
         ref={navRef}
         className={`${
           !navOpen && '-ml-96 md:-ml-[18rem]'
-        } duration-20 fixed top-0 z-20 flex h-full w-72 flex-col border-r-[1px] border-b-0 bg-white transition-all dark:border-r-purple-taupe dark:bg-chinese-black dark:text-white`}
+        } duration-20 fixed top-0 z-20 flex h-full w-72 flex-col border-r-[1px] border-b-0 bg-white transition-all dark:border-r-black-taupe dark:bg-chinese-black dark:text-white`}
       >
         <div
           className={'visible mt-2 flex h-[6vh] w-full justify-between md:h-12'}
@@ -245,7 +245,7 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
           className={({ isActive }) =>
             `${
               isActive ? 'bg-gray-3000 dark:bg-transparent' : ''
-            } group sticky mx-4 mt-4 flex cursor-pointer gap-2.5 rounded-3xl border border-silver p-3 hover:border-rainy-gray hover:bg-gray-3000 dark:border-purple-taupe dark:text-white dark:hover:bg-transparent`
+            } group sticky mx-4 mt-4 flex cursor-pointer gap-2.5 rounded-3xl border border-silver p-3 hover:border-rainy-gray hover:bg-gray-3000 dark:border-black-taupe dark:text-white dark:hover:bg-transparent`
           }
         >
           <img
@@ -279,7 +279,7 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
         </div>
 
         <div className="flex h-auto flex-col justify-end text-eerie-black dark:text-white">
-          <div className="flex flex-col-reverse border-b-[1px] dark:border-b-purple-taupe">
+          <div className="flex flex-col-reverse border-b-[1px] dark:border-b-black-taupe">
             <div className="relative my-4 flex gap-2 px-2">
               <SourceDropdown
                 options={docs}
@@ -297,11 +297,11 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
             </div>
             <p className="ml-6 mt-3 text-sm font-semibold">Source Docs</p>
           </div>
-          <div className="flex flex-col gap-2 border-b-[1px] py-2 dark:border-b-purple-taupe">
+          <div className="flex flex-col gap-2 border-b-[1px] py-2 dark:border-b-black-taupe">
             <NavLink
               to="/settings"
               className={({ isActive }) =>
-                `my-auto mx-4 flex h-9 cursor-pointer gap-4 rounded-3xl hover:bg-gray-100 dark:hover:bg-purple-taupe ${
+                `my-auto mx-4 flex h-9 cursor-pointer gap-4 rounded-3xl hover:bg-gray-100 dark:hover:bg-black-taupe ${
                   isActive ? 'bg-gray-3000 dark:bg-transparent' : ''
                 }`
               }
@@ -314,7 +314,7 @@ export default function Navigation({ navOpen, setNavOpen }: NavigationProps) {
           </div>
         </div>
       </div>
-      <div className="fixed z-10 h-16 w-full border-b-2 bg-gray-50 dark:border-b-purple-taupe dark:bg-chinese-black md:hidden">
+      <div className="fixed z-10 h-16 w-full border-b-2 bg-gray-50 dark:border-b-black-taupe dark:bg-chinese-black md:hidden">
         <button
           className="mt-5 ml-6 h-6 w-6 md:hidden"
           onClick={() => setNavOpen(true)}
