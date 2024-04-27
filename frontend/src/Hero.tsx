@@ -15,8 +15,6 @@ export default function Hero({ className = '' }: { className?: string }) {
         <p className="mr-2 text-4xl font-semibold">Hubiscraper0.1</p>
       </div>
         
-     
-      </div>
     </div>
   );
 }
