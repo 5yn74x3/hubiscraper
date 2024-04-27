@@ -14,15 +14,7 @@ export default function Hero({ className = '' }: { className?: string }) {
         <img className="mb-2 h-14" src={DocsGPT3} alt="Hubiscraper0.1" /> 
         <p className="mr-2 text-4xl font-semibold">Hubiscraper0.1</p>
       </div>
-          <p className="mb-3 text-center leading-6">
-          </p>
-          <p className="mb-3 text-center leading-6">
-          
-          </p>
-          <p className="mb-3 text-center leading-6">
-          
-          </p>
-      )}
+        
       <div
         className={`mt-0 flex flex-wrap items-center justify-center gap-2 sm:mt-1 sm:gap-4 md:gap-4 lg:gap-0`}
       >
