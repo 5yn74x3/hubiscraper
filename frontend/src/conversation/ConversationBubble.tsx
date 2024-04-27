@@ -52,7 +52,7 @@ const ConversationBubble = forwardRef<
     bubble = (
       <div ref={ref} className={`flex flex-row-reverse self-end ${className}`}>
         <Avatar className="mt-2 text-2xl" avatar="🧑‍💻"></Avatar>
-        <div className="mr-2 ml-10 flex items-center rounded-3xl bg-purple-30 p-3.5 text-white">
+        <div className="mr-2 ml-10 flex items-center rounded-3xl bg-black-30 p-3.5 text-white">
           <ReactMarkdown className="whitespace-pre-wrap break-all">
             {message}
           </ReactMarkdown>
@@ -207,7 +207,7 @@ const ConversationBubble = forwardRef<
                   className={`flex items-center justify-center rounded-full p-2 
                 ${
                   isCopyHovered
-                    ? 'bg-[#EEEEEE] dark:bg-purple-taupe'
+                    ? 'bg-[#EEEEEE] dark:bg-black-taupe'
                     : 'bg-[#ffffff] dark:bg-transparent'
                 }`}
                 >
@@ -243,7 +243,7 @@ const ConversationBubble = forwardRef<
                 <div
                   className={`flex items-center justify-center rounded-full p-2 dark:bg-transparent ${
                     isLikeHovered
-                      ? 'bg-[#EEEEEE] dark:bg-purple-taupe'
+                      ? 'bg-[#EEEEEE] dark:bg-black-taupe'
                       : 'bg-[#ffffff] dark:bg-transparent'
                   }`}
                 >
@@ -251,7 +251,7 @@ const ConversationBubble = forwardRef<
                     className={`cursor-pointer 
                   ${
                     isLikeClicked || feedback === 'LIKE'
-                      ? 'fill-white-3000 stroke-purple-30 dark:fill-transparent'
+                      ? 'fill-white-3000 stroke-black-30 dark:fill-transparent'
                       : 'fill-none  stroke-gray-4000'
                   }`}
                     onClick={() => {
@@ -278,7 +278,7 @@ const ConversationBubble = forwardRef<
                 <div
                   className={`flex items-center justify-center rounded-full p-2 ${
                     isDislikeHovered
-                      ? 'bg-[#EEEEEE] dark:bg-purple-taupe'
+                      ? 'bg-[#EEEEEE] dark:bg-black-taupe'
                       : 'bg-[#ffffff] dark:bg-transparent'
                   }`}
                 >
